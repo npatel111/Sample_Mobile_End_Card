@@ -1,0 +1,10 @@
+.mobile {
+  background-color: yellow;
+  width: 375px;
+  height: 667px;
+  text-align: center;
+}
+
+#logo {
+  width: 5em;
+}
