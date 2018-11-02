@@ -1,10 +1,19 @@
+body {
+  margin: 0;
+}
+
 .mobile {
   background-color: yellow;
-  width: 375px;
-  height: 667px;
+  /*width: 375px;*/
+  height: 100%;
   text-align: center;
 }
 
 #logo {
   width: 5em;
+}
+
+.social {
+  margin: 1em;
+  height: 4em;
 }
