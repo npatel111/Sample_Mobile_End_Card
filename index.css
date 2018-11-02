@@ -3,14 +3,29 @@ body {
 }
 
 .mobile {
-  background-color: yellow;
+  background-color: purple;
   /*width: 375px;*/
   height: 100%;
   text-align: center;
 }
 
+#container {
+  height: 40vh;
+/*  background: purple;
+*/}
+
+#taco {
+  max-height: 60vh;
+}
+
 #logo {
-  width: 5em;
+  width: 16vw;
+  left: 5vw;
+  position: absolute;
+  bottom: 32vh;
+  background: white;
+  padding: 0.7em;
+  border-radius: 15px;
 }
 
 .social {
