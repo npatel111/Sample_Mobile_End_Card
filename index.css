@@ -1,9 +1,13 @@
 /* Portrait iPhone8*/
-@media only screen 
+@media screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait), screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
   and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) 
 { 
 
 
@@ -65,7 +69,11 @@
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
+  and (orientation: landscape), screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1)  { 
 
   body {
     margin: 0;
@@ -105,7 +113,7 @@
     padding: 1em;
     font-size: 7vh;
     margin-bottom: 0;
-    margin-top: 7vh;
+    margin-top: 2%;
     padding-bottom: 0.5em;
   }
 
@@ -119,8 +127,8 @@
 
   #social-icons {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 2.5%;
+    right: 2.5%;
   }
 
   .social {
