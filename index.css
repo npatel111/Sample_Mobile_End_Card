@@ -1,18 +1,22 @@
-body {
-  margin: 0;
-}
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
 
-.mobile {
-  background-color: purple;
-  /*width: 375px;*/
-  height: 100%;
+   body {
+  margin: 0;
   text-align: center;
-}
+  background-image: linear-gradient(to bottom, #6c3a89, #4a519a, #20629f, #006f9a, #207990);
+  width: fit-content;
+/*  height: fit-content;
+*/}
 
 #container {
-  height: 40vh;
-/*  background: purple;
-*/}
+  width: fit-content;
+  margin: 2px;
+}
 
 #taco {
   max-height: 60vh;
@@ -28,7 +32,41 @@ body {
   border-radius: 15px;
 }
 
+#marketing-copy {
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  font-weight: bold;
+  letter-spacing: -1.4px;
+  text-transform: uppercase;
+  padding: 1em;
+  font-size: 5vh;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+}
+
+button {
+  background: white;
+  padding: 0.5em;
+  border-radius: 10px;
+  font-size: 4vh;
+  font-family: 'Permanent Marker', cursive;
+}
+
 .social {
   margin: 1em;
-  height: 4em;
+  height: 7vh;
+} 
+
 }
+
+/*/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}*/
+
+
+
