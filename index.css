@@ -102,7 +102,8 @@
     margin: 0;
     text-align: center;
     background-image: url(images/belluminati.png);
-    background-position: center bottom -20%;
+    background-size: 90%;
+    background-position: center bottom 130%;
   }  
 
   #container {
@@ -175,8 +176,8 @@
   and (-webkit-min-device-pixel-ratio: 1) 
 { 
   body {
-    background-size: 160%;
-    background-position: center bottom 120;
+    background-size: 150%;
+    background-position: center top -8em;
   } 
 }  
 
