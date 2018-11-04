@@ -15,7 +15,6 @@
     margin: 0;
     text-align: center;
     background-image: url(images/belluminati.png);
-    /*background-size: cover; */
     background-position: 49% -35%; 
   }
 
@@ -42,7 +41,7 @@
   }
 
   #marketing-copy {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'EB Garamond', serif;
     color: white;
     font-weight: bold;
     text-transform: uppercase;
@@ -57,7 +56,7 @@
     padding: 0.5em;
     border-radius: 10px;
     font-size: 4vh;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'EB Garamond', serif;
   }
 
   #social-icons {
@@ -84,7 +83,7 @@
   } 
 }  
 
-/*/* Landscape iPhone8 */
+/*/* Landscape iPhone8 and iPad*/
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
@@ -105,9 +104,12 @@
   #container {
     width: 100%;
     height: 40%;
-    background: linear-gradient(to bottom, #6c3a89, #4a519a, #20629f, #006f9a, #207990);
     position: absolute;
     bottom: 0;
+    background: rgb(3,11,68);
+    border-top-style: solid;
+    border-width: 20px;
+    border-image: url("https://www.tacobell.com/assets/campaign/dollar-all-day/images/belluminati/border.png") 32 32 33 32 stretch;
   }
 
   #taco {
@@ -125,7 +127,7 @@
   }
 
   #marketing-copy {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'EB Garamond', serif;
     color: white;
     font-weight: bold;
     text-transform: uppercase;
@@ -141,8 +143,8 @@
     padding: 0.5em;
     border-radius: 10px;
     font-size: 4vh;
-    font-family: 'Permanent Marker', cursive;
-  }
+    font-family: 'EB Garamond', serif;
+  }  
 
   #social-icons {
     position: absolute;
@@ -152,7 +154,7 @@
 
   .social {
     margin: 0.5em;
-    height: 25%;
+    height: 18%;
   } 
 
   #call-to-action {
