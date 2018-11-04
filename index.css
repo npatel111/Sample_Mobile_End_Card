@@ -26,6 +26,7 @@
     margin: 0px;
     background: rgb(3,11,68);
     border-top: 20px solid;
+    border-left: 0px;
     border-image: url("https://www.tacobell.com/assets/campaign/dollar-all-day/images/belluminati/border.png") 32 32 33 32 stretch;
   }
 
@@ -44,8 +45,10 @@
     color: white;
     font-weight: bold;
     text-transform: uppercase;
-    padding-top: 0.5em;
-    font-size: 5vh;
+/*  padding-top: 0.5em;
+    font-size: 5vh;*/
+    padding-top: 10%;
+    font-size: 4vh;
     margin-bottom: 0;
     padding-bottom: 0.25em;
   }
@@ -54,7 +57,9 @@
     background: white;
     padding: 0.5em;
     border-radius: 10px;
-    font-size: 4vh;
+/*    font-size: 4vh;
+*/  
+    font-size: 3vh;  
     font-family: 'EB Garamond', serif;
   }
 
@@ -63,8 +68,8 @@
   }
 
   .social {
-    margin: 1em;
-    height: 7vh;
+    margin: 0.75em;
+    height: 13%;
   } 
 
 }
