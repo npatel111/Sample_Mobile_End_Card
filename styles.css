@@ -1,4 +1,4 @@
-/******** CSS that is the same everywhere ********/
+/******** General CSS for all devices ********/
   body {
     background-image: url(images/belluminati.png);
     margin: 0;
@@ -11,6 +11,7 @@
     border-top: 5px solid;
     bottom: 0;
     height: 45%;
+    position: absolute;
     width: 100%;
   }
 
@@ -48,18 +49,7 @@
   } 
 }  
 
-/********  Style background image on landscape iPhone ********/
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
 
-  body {
-    background-position: center top 10%;
-    background-size: 90%;
-  }
-}  
 
 /********  Style background image on portrait iPad Pro ********/
 @media screen 
@@ -74,21 +64,6 @@
   } 
 }  
 
-/******** Style background image on landscape iPad Pro ********/
-@media screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1) 
-{ 
-  body {
-    background-position: center top -8em;
-    background-size: 150%;
-  } 
-} 
-
-
-
 /******** Portrait iPhone8 and Portrait iPad Pro ********/
 @media screen 
   and (min-device-width: 375px) 
@@ -100,11 +75,6 @@
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) 
 { 
-
-  #container {
-    margin: 0px;
-    position: fixed;
-  }
 
   #logo {
     padding: 0.7em;
@@ -126,17 +96,37 @@
     font-size: 3vh;  
   }
 
-  #social-icons {
-    margin-top: 1%;
-  }
-
   .social {
-    margin: 0.75em;
+    margin: 1em;
     width: 50%;
   } 
 }
 
+/********  Style background image on landscape iPhone ********/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
 
+  body {
+    background-position: center top 10%;
+    background-size: 90%;
+  }
+}  
+
+/******** Style background image on landscape iPad Pro ********/
+@media screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) 
+{ 
+  body {
+    background-position: center top -8em;
+    background-size: 150%;
+  } 
+} 
 
 /******** Landscape iPhone8 and Landscape iPad Pro ********/
 @media only screen 
@@ -148,11 +138,6 @@
   and (max-device-width: 1024px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1)  { 
-
-  #container {
-    height: 40%;
-    position: absolute;
-  }
 
   #logo {
     padding: 0.6em;
@@ -182,7 +167,6 @@
     font-size: 7vh;
     margin-top: 2%;
     padding: 1em;
-    padding-bottom: 0.5em;
   }
  
   button {
