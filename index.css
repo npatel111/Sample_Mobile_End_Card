@@ -1,4 +1,6 @@
-/* Portrait iPhone8 and iPad Pro*/
+
+
+/******** Portrait iPhone8 and iPad Pro********/
 @media screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
@@ -10,17 +12,16 @@
   and (-webkit-min-device-pixel-ratio: 1) 
 { 
 
-
   body {
     margin: 0;
     text-align: center;
     background-image: url(images/belluminati.png);
-    background-position: 49% -70%; 
+    background-position: 49% -70px; 
   }
 
   #container {
     position: fixed;
-    bottom: -1;
+    bottom: 0;
     width: 100%;
     height: 45%;
     margin: 0px;
@@ -50,6 +51,10 @@
     padding-bottom: 0.25em;
   }
 
+  a {
+    display: inline-block;
+  }
+
   button {
     background: white;
     padding: 0.5em;
@@ -64,15 +69,13 @@
 
   .social {
     margin: 0.75em;
-    height: 13%;
+    width: 55%;
   } 
 
-  a {
-    display: inline-block;
-  }
+ 
 }
 
-/* Style background image on iPad Portrait */
+/********  Style background image on iPad Portrait ********/
 @media screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
@@ -81,11 +84,11 @@
 { 
   body {
     background-size: 200%;
-    background-position: center bottom 130%;
+    background-position: center top 15%;
   } 
 }  
 
-/*Landscape iPhone8 and iPad*/
+/******** Landscape iPhone8 and iPad ********/
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
@@ -101,7 +104,7 @@
     text-align: center;
     background-image: url(images/belluminati.png);
     background-size: 90%;
-    background-position: center bottom 130%;
+    background-position: center top 10%;
   }  
 
   #container {
@@ -114,10 +117,6 @@
     border-color: rgb(93, 237, 250);
   }
 
-  #taco {
-    display: none;
-  }
-
   #logo {
     width: 8%;
     left: 5%;
@@ -127,6 +126,24 @@
     padding: 0.6em;
     border-radius: 15px;
   }
+
+  a {
+    display: contents;
+  }
+
+   #social-icons {
+    position: absolute;
+    top: 3%;
+    right: 0.5%;
+    width: inherit;
+    text-align: right;
+    max-width: 50%
+  }
+
+  .social {
+    margin: 0.5em;
+    width: 10%;
+  } 
 
   #copy {
     font-family: 'EB Garamond', serif;
@@ -140,6 +157,7 @@
     padding-bottom: 0.5em;
   }
 
+ 
   button {
     background: white;
     padding: 0.5em;
@@ -148,17 +166,6 @@
     font-family: 'EB Garamond', serif;
   }  
 
-  #social-icons {
-    position: absolute;
-    top: 3%;
-    right: 1%;
-  }
-
-  .social {
-    margin: 0.5em;
-    height: 18%;
-  } 
-
   #cta {
     position: absolute;
     right: 2.5%;
@@ -166,7 +173,7 @@
   }
 }
 
-/* Style background image on iPad Landscape */
+/******** Style background image on iPad Landscape ********/
 @media screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
