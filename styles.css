@@ -7,7 +7,7 @@
 
   #container {
     background: rgb(3,11,68);
-    border-color: rgb(93, 237, 250);
+    border-color: rgb(93, 237, 250) !important;
     border-top: 5px solid;
     bottom: 0;
     height: 45%;
