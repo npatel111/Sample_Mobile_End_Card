@@ -13,42 +13,42 @@
 { 
 
   body {
-    margin: 0;
-    text-align: center;
     background-image: url(images/belluminati.png);
     background-position: 49% -70px; 
+    margin: 0;
+    text-align: center;
   }
 
   #container {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 45%;
-    margin: 0px;
     background: rgb(3,11,68);
     border-top: 5px solid;
     border-color: rgb(93, 237, 250);
+    bottom: 0;
+    height: 45%;
+    margin: 0px;
+    position: fixed;
+    width: 100%;
   }
 
   #logo {
-    width: 16%;
+    background: white;
+    border-radius: 15px;
     left: 5%;
+    padding: 0.7em;
     position: absolute;
     top: calc(-12%);
-    background: white;
-    padding: 0.7em;
-    border-radius: 15px;
+    width: 16%; 
   }
 
   #copy {
-    font-family: 'EB Garamond', serif;
     color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding-top: 10%;
+    font-family: 'EB Garamond', serif;
     font-size: 4vh;
+    font-weight: bold;
     margin-bottom: 0;
     padding-bottom: 0.25em;
+    padding-top: 10%;
+    text-transform: uppercase;
   }
 
   a {
@@ -57,10 +57,10 @@
 
   button {
     background: white;
-    padding: 0.5em;
     border-radius: 10px;
-    font-size: 3vh;  
     font-family: 'EB Garamond', serif;
+    font-size: 3vh;  
+    padding: 0.5em;
   }
 
   #social-icons {
@@ -71,8 +71,6 @@
     margin: 0.75em;
     width: 55%;
   } 
-
- 
 }
 
 /********  Style background image on iPad Portrait ********/
@@ -100,31 +98,31 @@
   and (-webkit-min-device-pixel-ratio: 1)  { 
 
   body {
+    background-image: url(images/belluminati.png);
+    background-position: center top 10%;
+    background-size: 90%;
     margin: 0;
     text-align: center;
-    background-image: url(images/belluminati.png);
-    background-size: 90%;
-    background-position: center top 10%;
   }  
 
   #container {
-    width: 100%;
+    background: rgb(3,11,68);
+    border-color: rgb(93, 237, 250);
+    border-top: 5px solid;
+    bottom: 0;
     height: 40%;
     position: absolute;
-    bottom: 0;
-    background: rgb(3,11,68);
-    border-top: 5px solid;
-    border-color: rgb(93, 237, 250);
+    width: 100%;
   }
 
   #logo {
-    width: 8%;
+    background: white;
+    border-radius: 15px;
     left: 5%;
+    padding: 0.6em;
     position: absolute;
     top: calc(-15%);
-    background: white;
-    padding: 0.6em;
-    border-radius: 15px;
+    width: 8%;
   }
 
   a {
@@ -132,12 +130,12 @@
   }
 
    #social-icons {
+    max-width: 50%;
     position: absolute;
-    top: 3%;
     right: 0.5%;
-    width: inherit;
     text-align: right;
-    max-width: 50%
+    top: 3%;
+    width: inherit;
   }
 
   .social {
@@ -146,30 +144,31 @@
   } 
 
   #copy {
-    font-family: 'EB Garamond', serif;
     color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 1em;
+    font-family: 'EB Garamond', serif;
     font-size: 7vh;
+    font-weight: bold;
     margin-bottom: 0;
     margin-top: 2%;
+    padding: 1em;
     padding-bottom: 0.5em;
+    text-transform: uppercase;
   }
 
  
   button {
     background: white;
-    padding: 0.5em;
     border-radius: 10px;
-    font-size: 4vh;
     font-family: 'EB Garamond', serif;
+    font-size: 4vh;
+    padding: 0.5em;
   }  
 
   #cta {
+    bottom: 8%;
     position: absolute;
     right: 2.5%;
-    bottom: 8%;
+  
   }
 }
 
@@ -181,8 +180,8 @@
   and (-webkit-min-device-pixel-ratio: 1) 
 { 
   body {
-    background-size: 150%;
     background-position: center top -8em;
+    background-size: 150%;
   } 
 }  
 
