@@ -71,6 +71,9 @@
     height: 13%;
   } 
 
+  a {
+    display: inline-block;
+  }
 }
 
 /* Style background image on iPad Portrait */
