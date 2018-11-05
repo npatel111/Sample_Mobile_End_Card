@@ -113,7 +113,7 @@
     bottom: 0;
     background: rgb(3,11,68);
     border-top: 20px solid;
-    border-image: url("https://www.tacobell.com/assets/campaign/dollar-all-day/images/belluminati/border.png") 32 32 33 32 stretch;
+    border-image: url("https://www.tacobell.com/assets/campaign/dollar-all-day/images/belluminati/border.png") 22 22 22 22 repeat;
   }
 
   #taco {
