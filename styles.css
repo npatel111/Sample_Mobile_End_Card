@@ -1,0 +1,204 @@
+/******** CSS that is the same everywhere ********/
+  body {
+    background-image: url(images/belluminati.png);
+    margin: 0;
+    text-align: center;
+  }
+
+  #container {
+    background: rgb(3,11,68);
+    border-color: rgb(93, 237, 250);
+    border-top: 5px solid;
+    bottom: 0;
+    height: 45%;
+    width: 100%;
+  }
+
+  #logo {
+    background: white;
+    border-radius: 15px;
+    left: 5%;
+    position: absolute;
+  }
+
+  #copy {
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+
+  button {
+    background: white;
+    border-radius: 10px;
+    font-family: 'EB Garamond', serif;
+    padding: 0.5em;
+  }
+
+/********  Style background image on portrait iPhone ********/
+@media screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) 
+{ 
+  body {
+    background-position: 49% -70px; 
+  } 
+}  
+
+/********  Style background image on landscape iPhone ********/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+  body {
+    background-position: center top 10%;
+    background-size: 90%;
+  }
+}  
+
+/********  Style background image on portrait iPad Pro ********/
+@media screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) 
+{ 
+  body {
+    background-size: 200%;
+    background-position: center top 15%;
+  } 
+}  
+
+/******** Style background image on landscape iPad Pro ********/
+@media screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) 
+{ 
+  body {
+    background-position: center top -8em;
+    background-size: 150%;
+  } 
+} 
+
+
+
+/******** Portrait iPhone8 and Portrait iPad Pro ********/
+@media screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait), screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) 
+{ 
+
+  #container {
+    margin: 0px;
+    position: fixed;
+  }
+
+  #logo {
+    padding: 0.7em;
+    top: calc(-12%);
+    width: 16%; 
+  }
+
+  #copy {
+    font-size: 4vh;
+    padding-bottom: 0.25em;
+    padding-top: 10%;
+  }
+
+  a {
+    display: inline-block;
+  }
+
+  button {
+    font-size: 3vh;  
+  }
+
+  #social-icons {
+    margin-top: 1%;
+  }
+
+  .social {
+    margin: 0.75em;
+    width: 50%;
+  } 
+}
+
+
+
+/******** Landscape iPhone8 and Landscape iPad Pro ********/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape), screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1)  { 
+
+  #container {
+    height: 40%;
+    position: absolute;
+  }
+
+  #logo {
+    padding: 0.6em;
+    top: calc(-15%);
+    width: 8%;
+  }
+
+  a {
+    display: contents;
+  }
+
+   #social-icons {
+    max-width: 50%;
+    position: absolute;
+    right: 0.5%;
+    text-align: right;
+    top: 3%;
+    width: inherit;
+  }
+
+  .social {
+    margin: 0.5em;
+    width: 10%;
+  } 
+
+  #copy {
+    font-size: 7vh;
+    margin-top: 2%;
+    padding: 1em;
+    padding-bottom: 0.5em;
+  }
+ 
+  button {
+    font-size: 4vh;
+  }  
+
+  #cta {
+    bottom: 8%;
+    position: absolute;
+    right: 2.5%;
+  }
+
+}
+
+
+ 
+
+
+
