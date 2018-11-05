@@ -25,9 +25,8 @@
     height: 45%;
     margin: 0px;
     background: rgb(3,11,68);
-    border-top: 20px solid;
-    border-left: 0px;
-    border-image: url("https://www.tacobell.com/assets/campaign/dollar-all-day/images/belluminati/border.png") 20 0 0 0 repeat;
+    border-top: 5px solid;
+    border-color: rgb(93, 237, 250);
   }
 
   #logo {
@@ -112,8 +111,8 @@
     position: absolute;
     bottom: 0;
     background: rgb(3,11,68);
-    border-top: 20px solid;
-    border-image: url("https://www.tacobell.com/assets/campaign/dollar-all-day/images/belluminati/border.png") 22 22 22 22 repeat;
+    border-top: 5px solid;
+    border-color: rgb(93, 237, 250);
   }
 
   #taco {
