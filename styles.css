@@ -155,7 +155,7 @@ button {
   }
 
    #social-icons {
-    max-width: 50%;
+    max-width: 40%;
     position: absolute;
     right: 1.5%;
     text-align: right;
@@ -170,7 +170,6 @@ button {
 
   #copy {
     font-size: 7vh;
-    /*margin-top: 4%;*/
     padding-bottom: 1em;
   }
  
