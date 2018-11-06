@@ -118,8 +118,8 @@ button {
   and (-webkit-min-device-pixel-ratio: 1) 
 { 
   body {
-    background-position: center top 18%;
-    background-size: 150%;
+    background-position: center top 14%;
+    background-size: 140%;
   } 
 } 
 
@@ -160,8 +160,8 @@ button {
 
   #copy {
     font-size: 7vh;
-    margin-top: 4%;
-    padding: 1em;
+    /*margin-top: 4%;*/
+    padding-bottom: 1em;
   }
  
   button {
