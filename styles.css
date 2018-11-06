@@ -1,66 +1,52 @@
 /******** General CSS for all devices ********/
-  body {
-    background-image: url(images/belluminati.png);
-    margin: 0;
-    text-align: center;
-  }
+body {
+  background-image: url(images/belluminati.png);
+  margin: 0;
+  text-align: center;
+}
 
-  #container {
-    background: rgb(3,11,68);
-    border-color: rgb(93, 237, 250) !important;
-    border-top: 5px solid;
-    bottom: 0;
-    height: 45%;
-    position: absolute;
-    width: 100%;
-  }
+#container {
+  background: rgb(3,11,68);
+  border-color: rgb(93, 237, 250) !important;
+  border-top: 5px solid;
+  bottom: 0;
+  height: 45%;
+  position: absolute;
+  width: 100%;
+}
 
-  #logo {
-    background: white;
-    border-radius: 15px;
-    left: 5%;
-    position: absolute;
-  }
+#logo {
+  background: white;
+  border-radius: 15px;
+  left: 5%;
+  position: absolute;
+}
 
-  #copy {
-    color: white;
-    font-family: 'EB Garamond', serif;
-    font-weight: bold;
-    margin-bottom: 0;
-    text-transform: uppercase;
-  }
+#copy {
+  color: white;
+  font-family: 'EB Garamond', serif;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
 
-  button {
-    background: white;
-    border-radius: 10px;
-    font-family: 'EB Garamond', serif;
-    padding: 0.5em;
-  }
+button {
+  background: white;
+  border-radius: 10px;
+  font-family: 'EB Garamond', serif;
+  padding: 0.5em;
+}
 
-/********  Style background image on portrait iPhone ********/
-@media screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) 
-{ 
-  body {
-    background-position: 49% -70px; 
-  } 
-}  
-
-
-
-/********  Style background image on portrait iPad Pro ********/
+/******** Style background image on portrait iPad Pro ********/
 @media screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) 
 { 
+
   body {
     background-size: 200%;
-    background-position: center top 15%;
   } 
 }  
 
@@ -75,6 +61,10 @@
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) 
 { 
+
+  body {
+    background-position: center top 15%; 
+  }
 
   #logo {
     padding: 0.7em;
@@ -102,7 +92,7 @@
   } 
 }
 
-/********  Style background image on landscape iPhone ********/
+/******** Style background image on landscape iPhone ********/
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
@@ -123,7 +113,7 @@
   and (-webkit-min-device-pixel-ratio: 1) 
 { 
   body {
-    background-position: center top -8em;
+    background-position: center top 20%;
     background-size: 150%;
   } 
 } 
@@ -152,9 +142,9 @@
    #social-icons {
     max-width: 50%;
     position: absolute;
-    right: 0.5%;
+    right: 1.5%;
     text-align: right;
-    top: 3%;
+    top: 4%;
     width: inherit;
   }
 
@@ -165,7 +155,7 @@
 
   #copy {
     font-size: 7vh;
-    margin-top: 2%;
+    margin-top: 4%;
     padding: 1em;
   }
  
