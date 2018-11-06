@@ -68,7 +68,7 @@ button {
 
   #logo {
     padding: 0.7em;
-    top: calc(-12%);
+    top: -12%;
     width: 16%; 
   }
 
@@ -131,7 +131,7 @@ button {
 
   #logo {
     padding: 0.6em;
-    top: calc(-15%);
+    top: -15%;
     width: 8%;
   }
 
