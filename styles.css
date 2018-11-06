@@ -62,7 +62,11 @@ button {
 { 
 
   body {
-    background-position: center top 10%; 
+    background-position: center bottom 5rem; 
+  }
+
+  #container {
+   height: 50%;
   }
 
   #logo {
