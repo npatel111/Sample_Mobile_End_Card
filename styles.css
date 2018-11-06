@@ -36,6 +36,19 @@ button {
   padding: 0.5em;
 }
 
+/******** Style background image on portrait iPhone ********/
+@media screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait)
+{
+  body {
+    background-position: center bottom 4rem;
+    background-size: 250%;
+  }
+}  
+
 /******** Style background image on portrait iPad Pro ********/
 @media screen 
   and (min-device-width: 768px) 
@@ -45,6 +58,7 @@ button {
 { 
 
   body {
+    background-position: center bottom 5.5rem; 
     background-size: 200%;
   } 
 }  
@@ -60,10 +74,6 @@ button {
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) 
 { 
-
-  body {
-    background-position: center bottom 5.5rem; 
-  }
 
   #container {
    height: 50%;
