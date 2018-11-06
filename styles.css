@@ -23,7 +23,7 @@ body {
 
 #copy {
   color: white;
-  font-family: 'EB Garamond', serif;
+  font-family: sans-serif;
   font-weight: bold;
   margin-bottom: 0;
   text-transform: uppercase;
@@ -32,7 +32,7 @@ body {
 button {
   background: white;
   border-radius: 10px;
-  font-family: 'EB Garamond', serif;
+  font-family: sans-serif;
   padding: 0.5em;
 }
 
@@ -116,7 +116,7 @@ button {
 
   body {
     background-position: center top 10%;
-    background-size: 90%;
+    background-size: 100%;
   }
 }  
 
