@@ -10,7 +10,6 @@ body {
   border-color: rgb(93, 237, 250) !important;
   border-top: 5px solid;
   bottom: 0;
-  height: 45%;
   position: absolute;
   width: 100%;
 }
@@ -63,7 +62,7 @@ button {
 { 
 
   body {
-    background-position: center top 15%; 
+    background-position: center top 10%; 
   }
 
   #logo {
@@ -100,7 +99,7 @@ button {
   and (orientation: landscape) { 
 
   body {
-    background-position: center top 15%;
+    background-position: center top 10%;
     background-size: 90%;
   }
 }  
@@ -113,7 +112,7 @@ button {
   and (-webkit-min-device-pixel-ratio: 1) 
 { 
   body {
-    background-position: center top 20%;
+    background-position: center top 15%;
     background-size: 150%;
   } 
 } 
