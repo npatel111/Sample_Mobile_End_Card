@@ -1,4 +1,6 @@
-/******** General CSS for all devices ********/
+/******** General CSS for iPhone 8 and iPad Pro 
+(applies to both landscape and portrait ********/
+
 body {
   background-image: url(images/belluminati.png);
   margin: 0;
@@ -35,6 +37,7 @@ button {
   font-family: sans-serif;
   padding: 0.5em;
 }
+
 
 /******** Style background image on portrait iPhone ********/
 @media screen 
@@ -185,8 +188,15 @@ button {
 
 }
 
-
+/******** For desktops, just so the images don't look hideous ********/
  
+@media only screen and (min-device-width: 1025px) {
+  body {
+    display: none;  
+  }
 
-
+  html {
+    background:url(https://media.giphy.com/media/FElifZ0RtUaxPOua9n/giphy.gif) no-repeat center center fixed; ;
+  }
+}
 
