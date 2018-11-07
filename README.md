@@ -1,6 +1,6 @@
 # Sample_Mobile_End_Card
 
-This is a sample static web page serve as a mobile end card!
+This is a sample static web page to serve as a mobile end card!
 
 The example ad campaign I used as a guideline is below:
 
@@ -15,12 +15,12 @@ Campaign KPIs:
 Video Creative: https://www.youtube.com/watch?v=7vZBHfyq3TE
 
 Goals:
-End card is optimized for the following screen sizes:
+Optimize end card for the following screen sizes:
 
 - iPhone 8 – 375x667
 - iPad Pro (9.7) – 768x1024
 
-Elements to include:
+Elements I will include:
 
 - Call-to-action button
 - Marketing copy
